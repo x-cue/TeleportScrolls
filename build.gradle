@@ -25,6 +25,7 @@ javadoc {
 dependencies {
     implementation(files("$hytaleHome/install/$patchline/package/game/latest/Server/HytaleServer.jar"))
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    implementation('me.xcue:hylib:26.0.0')
 }
 
 repositories {

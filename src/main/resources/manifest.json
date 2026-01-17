@@ -1,9 +1,9 @@
 {
-    "Group": "xCue",
-    "Name": "TestMod",
-    "Main": "me.xcue.mod.TestMod",
-    "Version": "0.0.2",
-    "Description": "Hytale mod in Kotlin!",
+    "Group": "xcue",
+    "Name": "TeleportScrolls",
+    "Main": "me.xcue.teleportscrolls.TeleportScrolls",
+    "Version": "26.0.0",
+    "Description": "Adds teleportation scrolls to Hytale. Upon use, the player will be teleportation to the target location!",
     "Authors": [
         {
             "Name": "xcue"
@@ -12,11 +12,11 @@
     "Website": "example.com",
     "ServerVersion": "*",
     "Dependencies": {
-        
+        "xcue:Hylib": "^26.0.0"
     },
     "OptionalDependencies": {
         
     },
     "DisabledByDefault": false,
-    "IncludesAssetPack": true
+    "IncludesAssetPack": false
 }
